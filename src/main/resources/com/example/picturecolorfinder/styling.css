@@ -1,0 +1,53 @@
+#mainContainer{
+    -fx-background-color: rgb(13, 23, 14);
+}
+
+#pictureContainer{
+    -fx-background-color: transparent;
+}
+#noImageMessage{
+    -fx-font-size: 18px;
+    -fx-text-fill: rgba(27,118,41,1);
+}
+
+#projectContainer{
+    -fx-background-color:rgba(121, 150, 125,0);
+}
+
+#picturesFolderSource{
+    -fx-background-color: rgba(84,184,106,0.8);
+    -fx-background-radius: 15px;
+    -fx-border-width: 0;
+}
+
+#picturesList{
+    -fx-background-color: rgba(84,184,106,0.8);
+    -fx-background-radius: 15px;
+    -fx-border-width: 0;
+}
+
+#picturePickerContainer{
+    -fx-background-color: rgba(48,74,52,0.5);
+    -fx-background-radius: 20px;
+}
+
+#pickedColors{
+    -fx-background-color: rgba(48,74,52,0.5);
+    -fx-border-width: 0;
+    -fx-background-radius: 20px;
+}
+
+#pickedColors > .viewport{
+    -fx-background-color: rgba(0,0,0,0);
+    -fx-background-radius: 10px;
+}
+
+#pickedColors > .scroll-bar{
+    -fx-background-color: rgba(105,170,114,0.7);
+    -fx-background-radius: 5px;
+}
+
+#pickedColors > . scroll-bar:vertical{
+    -fx-background-color: rgba(105,170,114,0.7);
+    -fx-background-radius: 5px;
+}
